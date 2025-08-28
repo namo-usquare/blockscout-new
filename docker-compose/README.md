@@ -34,7 +34,7 @@ and 5 containers for microservices (written in Rust):
 - [Sig-provider](https://github.com/blockscout/blockscout-rs/tree/main/sig-provider) service.
 - [User-ops-indexer](https://github.com/blockscout/blockscout-rs/tree/main/user-ops-indexer) service.
 
-**Note for Linux users**: Linux users need to run the local node on http://0.0.0.0/ rather than http://127.0.0.1/
+**Note for Linux users**: Linux users need to run the local node on http://0.0.0.0/ rather than http://172.31.47.51/
 
 ## Configs for different Ethereum clients
 
