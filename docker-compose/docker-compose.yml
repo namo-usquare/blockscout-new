@@ -34,9 +34,9 @@ services:
     links:
       - db:database
     environment:
-        ETHEREUM_JSONRPC_HTTP_URL: http://172.31.47.51:8545
-        ETHEREUM_JSONRPC_TRACE_URL: http://172.31.47.51:8545
-        ETHEREUM_JSONRPC_WS_URL: ws://172.31.47.51:8546
+        ETHEREUM_JSONRPC_HTTP_URL: https://rpc-inception.bqtech.in
+        ETHEREUM_JSONRPC_TRACE_URL: https://rpc-inception.bqtech.in
+        ETHEREUM_JSONRPC_WS_URL: wss://rpc-inception.bqtech.in/ws
         CHAIN_ID: '20250819'
 
   # nft_media_handler:
